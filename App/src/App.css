@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap');
+
+
+body {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn-custom {
+    background: #5a3c5f;
+    border-radius: 35px;
+    margin: 10px auto;
+    border-color: #5a3c5f;
+}
+.btn-custom:not(:disabled):not(.disabled):active,
+.btn-custom:active,
+.btn-custom:hover {
+    color: #fff;
+    background-color: #5a3c5f;
+    border-color: #5a3c5f;
+}
+.btn-custom:not(:disabled):not(.disabled):active:focus,
+.btn-custom:focus {
+    box-shadow: 0 0 0 0.2rem rgba(90, 60, 95, .5);
+}
+
+.btn-transparent:not(:disabled):not(.disabled):active,
+.btn-transparent:active,
+.btn-transparent:hover {
+    color: #fff;
+    background-color: transparent !important;
+    border-color: none !important;
+}
+.btn-transparent:not(:disabled):not(.disabled):active:focus,
+.btn-transparent:focus {
+    box-shadow: none !important;
+}
+
+.card-header{
+    color: #fff;
+    padding: 15px 20px;
+    background: #573e5d; 
+    background: -moz-linear-gradient(top,  #573e5d 0%, #503856 52%, #442f49 66%, #442f49 66%, #2b1c2f 100%); 
+    background: -webkit-linear-gradient(top,  #573e5d 0%,#503856 52%,#442f49 66%,#442f49 66%,#2b1c2f 100%);
+    background: linear-gradient(to bottom,  #573e5d 0%,#503856 52%,#442f49 66%,#442f49 66%,#2b1c2f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#573e5d', endColorstr='#2b1c2f',GradientType=0 );
+}
+.h5.card-title{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0
+}
+
+.modal-header{
+    color: #fff;
+    padding: 8px 20px;
+    background: #573e5d; 
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: -moz-linear-gradient(top,  #573e5d 0%, #503856 52%, #442f49 66%, #442f49 66%, #2b1c2f 100%); 
+    background: -webkit-linear-gradient(top,  #573e5d 0%,#503856 52%,#442f49 66%,#442f49 66%,#2b1c2f 100%);
+    background: linear-gradient(to bottom,  #573e5d 0%,#503856 52%,#442f49 66%,#442f49 66%,#2b1c2f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#573e5d', endColorstr='#2b1c2f',GradientType=0 );
+}
+.h4.modal-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0
+}
+.modal-header .close{
+    font-weight: 400;
+    color: #FFF;
+    text-shadow: none;
+    opacity: 1;
+}
+.modal-footer {
+    border-top: none;
+}
+
+@media (min-width: 992px){
+    .modal-lg, .modal-xl {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}

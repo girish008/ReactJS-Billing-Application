@@ -1,0 +1,124 @@
+.widget-block {
+    font-weight: 300;
+    text-align: center;
+    width: 180px;
+    margin: 0 auto;
+
+    .default {
+        color: #8f8f8f;
+    }
+
+    .success {
+        color: #4caf50;
+    }
+
+    .danger {
+        color: #f44233;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .price-text {
+        font-size: 16px;
+        font-weight: bold;
+
+        sup {
+            top: -1.5em;
+        }
+
+        span {
+            font-size: 38px;
+            font-weight: 300;
+        }
+    }
+
+    .total-text {
+        font-size: 20px;
+    }
+
+    .type-text {
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase
+    }
+}
+
+.knob-widget {
+    width: 180px;
+    margin: 0 auto;
+
+    .box {
+        width: 80px;
+        margin: 20px auto 0;
+    }
+
+    p {
+        font-weight: bold;
+        color: rgb(143, 143, 143);
+        text-align: center;
+        font-size: 10px;
+        text-transform: uppercase;
+        margin: 10px 0 20px;
+    }
+
+    .CircularProgressbar.success {
+        .CircularProgressbar-path {
+            stroke: #4caf50;
+        }
+
+        .CircularProgressbar-text {
+            fill: #4caf50;
+        }
+    }
+
+    .CircularProgressbar.info {
+        .CircularProgressbar-path {
+            stroke: #f44233;
+        }
+
+        .CircularProgressbar-text {
+            fill: #f2be53;
+        }
+    }
+
+    .CircularProgressbar.danger {
+        .CircularProgressbar-path {
+            stroke: #f44233;
+        }
+
+        .CircularProgressbar-text {
+            fill: #f44233;
+        }
+    }
+}
+.custom-chart-block{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+}
+
+.ReactChart {
+    .labelGroup {
+        .tickLabel {
+            fill: #8f8f8f !important;
+            font-size: 12px !important;
+            font-family: 'Quicksand', Arial, Helvetica, sans-serif !important;
+            font-weight: 400;
+        }
+    }
+
+    .Axis:first-child {
+        .ticks {
+            .tick:last-child {
+                .tickLabel {
+                    fill: rgb(86, 0, 139) !important;
+                    font-size: 14px !important;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
